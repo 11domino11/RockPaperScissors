@@ -4,10 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="page">
+        <div class="topPlayerStats">
+            <p>Computer</p>
+            <p id='loses'>Wins: 0</p>
+        </div>
+        <div class = "topPlayerChoices">
+            <img src="Images/Rock.jpg" alt="Rock"></img>
+            <img src="Images/Paper.png" alt="Paper"></img>
+            <img src="Images/Scissors.png" alt="Scissors"></img>
+        </div>
+        <div class="midSection">
+            <p id='rounds'>Rounds: 0</p>
+            <img src="Images/VS.png" alt="VS">
+            <p id='ties'>Ties: 0</p>
+        </div>
+        <div class = "bottomPlayerChoices">
+            <input type="image" onclick="PlayRound('rock')" src="Images/Rock.jpg" id="rock" ></input>
+            <input type="image" onclick="PlayRound('paper')" src="Images/Paper.png" id="paper" ></input>
+            <input type="image" onclick="PlayRound('scissors')" src="Images/Scissors.png" id="scissors" ></input>
+        </div>
+        <div class="bottomPlayerStats">
+            <p>Player</p>
+            <p id='wins'>Wins: 0</p>
+        </div>
+    </div>
 </body>
 </html>
