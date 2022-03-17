@@ -1,3 +1,4 @@
 # RockPaperScissors
-This project was created by The Odin Project as a way to help teach people Javascript
-in the context of web deisgn.
+This is a simple Rock Paper Scissors game that allows the player to select the options and play against a computer oppponent. Plays first to 5 and uses DOM manipulation.
+
+Player selects choices on bottom of screen and computer plays on top.

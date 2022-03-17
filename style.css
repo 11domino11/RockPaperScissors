@@ -1,14 +1,14 @@
-.page{
+body{
     background-color: rgb(223, 0, 0);
 }
 .topPlayerStats, .bottomPlayerStats{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .topPlayerChoices, .bottomPlayerChoices{
     display: flex;
     justify-content: space-evenly;
-    margin: 50px;
+    margin-top: 10px;
 }
 p{
     color: white;
@@ -29,7 +29,7 @@ p{
     align-items: center;
     
 }
-img{
-    width: 350px;
-    height: 250px;
+.midSection img{
+    width: 300px;
+    height: 200px;
 }
